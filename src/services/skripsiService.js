@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8080"; // URL Backend
+const API_URL = import.meta.env.VITE_API_URL; // URL Backend
 
 // GET All Skripsi
 export const getAllSkripsi = async () => {
