@@ -1,12 +1,19 @@
-import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import DataSkripsi from "./pages/DataSkripsi";
 
 function App() {
   return (
-    <>
-      <div className="min-h-screen flex items-center justify-center">
-        <h1 className="text-4xl font-bold text-black">Hello World From Wah Abi</h1>
+    <div className="min-h-screen bg-gray-100">
+      <Navbar />
+      <div className="p-4">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/data-skripsi" element={<DataSkripsi />} />
+        </Routes>
       </div>
-    </>
+    </div>
   );
 }
 
