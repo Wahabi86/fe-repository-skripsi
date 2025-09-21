@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import DataSkripsi from "./pages/DataSkripsi";
+import Home from "./pages/home";
+import EditSkripsi from "./pages/EditSkripsi";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <div className="p-4">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/data-skripsi" element={<DataSkripsi />} />
+          <Route path="/edit-skripsi" element={<EditSkripsi />} />
         </Routes>
       </div>
     </div>

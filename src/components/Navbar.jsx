@@ -13,7 +13,7 @@ function Navbar() {
         <NavLink to="/" className={({ isActive }) => `transition-all duration-200 font-bold ${isActive ? "text-[#be9c2e]" : "hover:text-[#be9c2e]"}`}>
           Home
         </NavLink>
-        <NavLink to="/data-skripsi" className={({ isActive }) => `transition-all duration-200 font-bold ${isActive ? "text-[#be9c2e]" : "hover:text-[#be9c2e]"}`}>
+        <NavLink to="/edit-skripsi" className={({ isActive }) => `transition-all duration-200 font-bold ${isActive ? "text-[#be9c2e]" : "hover:text-[#be9c2e]"}`}>
           Edit Skripsi
         </NavLink>
       </div>

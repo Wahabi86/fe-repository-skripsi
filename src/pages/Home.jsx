@@ -50,7 +50,7 @@ function Home() {
                 <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start">
                   <div className="flex-1">
                     <div className="flex items-start mb-3">
-                      <h4 className="text-xl font-semibold text-blue-600 hover:text-blue-800 cursor-pointer">{skripsi.judul}</h4>
+                      <h4 className="text-xl font-semibold text-[#1a2b52] hover:text-[#2c4a7a] hover:underline cursor-pointer">{skripsi.judul}</h4>
                     </div>
 
                     <div className="flex items-center text-sm text-gray-600 mb-3 space-x-3">
